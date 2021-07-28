@@ -83,8 +83,6 @@ func SetExchangeRate(c echo.Context, instance *token.Token, adminKey string, amo
 		log.Fatal("cannot assert type: publicKey is not of type *ecdsa.PublicKey")
 	}
 
-	fmt.Println("value:", amount)
-
 	fromAddress := crypto.PubkeyToAddress(*publicKeyECDSA)
 	value := big.NewInt(amount)
 

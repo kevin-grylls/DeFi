@@ -12,8 +12,6 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 )
 
-// const ROPSTEN_NETWORK string = "http://127.0.0.1:7545"
-// const CONTRACT_ADDR string = "0xfE32d78f7Bcaaf647D83096f7f5f9D21fbECDBC7"
 const ROPSTEN_NETWORK = "https://ropsten.infura.io/v3/4d51ae5e895d4d73974e078aacff23aa"
 const CONTRACT_ADDR string = "0xEb0422465F7B484187BaF716795F74D9F86aB027"
 
