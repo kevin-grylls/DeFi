@@ -13,34 +13,22 @@
 ```go
 // go.mod
 
-module dapp
+module github.com/kevin/My-DeFi
 
 go 1.16
 
 require (
-	github.com/Rhymond/go-money v1.0.3 // indirect
-	github.com/btcsuite/btcd v0.21.0-beta // indirect
 	github.com/ethereum/go-ethereum v1.10.6
-	github.com/google/go-cmp v0.5.5 // indirect
-	github.com/kevin/dapp/contracts v0.0.0
-	github.com/kevin/dapp/controllers v0.0.0
-	github.com/kevin/dapp/models v0.0.0
+	github.com/kevin/My-DeFi/contracts v0.0.0
+	github.com/kevin/My-DeFi/controllers v0.0.0
 	github.com/labstack/echo/v4 v4.4.0
-	github.com/mattn/go-sqlite3 v1.14.8
-	github.com/onsi/ginkgo v1.14.2 // indirect
-	github.com/onsi/gomega v1.10.3 // indirect
-	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
-	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect
-	golang.org/x/net v0.0.0-20210716203947-853a461950ff // indirect
-	golang.org/x/sys v0.0.0-20210423185535-09eb48e85fd7 // indirect
-	google.golang.org/protobuf v1.25.0 // indirect
 )
 
 replace (
-	github.com/kevin/dapp/contracts v0.0.0 => ./contracts
-	github.com/kevin/dapp/controllers v0.0.0 => ./controllers
-	github.com/kevin/dapp/models v0.0.0 => ./models
+	github.com/kevin/My-DeFi/contracts v0.0.0 => ./contracts
+	github.com/kevin/My-DeFi/controllers v0.0.0 => ./controllers
 )
+
 ```
 
 - 이후 다음의 커맨드로 의존성을 설치하고 실행합니다.
